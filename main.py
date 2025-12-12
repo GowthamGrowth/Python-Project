@@ -1,18 +1,17 @@
 print("Welcome to Abishek Coffee")
 
-name = ("What Is your name?")
+print("This Cafa Prices is Fixed Price Like 499")
+name = input("Enter Your Name: ")
+print("Select Menu List")
 
-print(name)
-
-name = input()
-
-menu = "Black coffee,espresso,Latte,Cappucino"
+menu=("""1.Black coffee
+2.espresso
+3.Latte
+4.Cappucino""")
 
 print(menu)
-
-output = input()
-
+output = input("Enter Like [ 1 / 2 / 3 / 4 ]: ")
 price = 499
-quantity = input("how many coffee did you want")
+quantity = input("How many coffee did you want: ")
 total = price * int(quantity)
-print(str(total))
+print("Thankyou for buying your total price is >"+str(total))
